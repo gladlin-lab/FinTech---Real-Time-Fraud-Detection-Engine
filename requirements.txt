@@ -1,0 +1,19 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic
+redis
+scikit-learn
+pickle-mixin
+
+#steps to run
+
+# pip install fastapi uvicorn sqlalchemy psycopg2-binary redis scikit-learn pydantic
+# python ml/train_model.py
+# docker-compose up --build
+# http://localhost:8000/docs
+
+# docker-compose down
+# docker-compose up --build
+
